@@ -1,82 +1,58 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Test media query background color change" />
-        <meta name="author" content="Leandro dos Santos Luiz" />
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLO PROJECT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- CONTAINER -->
+    <div id="container">
         <!-- HERO SECTION -->
-
-        <div id="hero" class="section">
-            <div id="hero-title">Visit Wroclaw</div>
-            <div id="hero-text" class="text-1">Enjoy culture and food in this vibrant "Miasto" that's cut through by Odra river.</div>
-
+        <div id="hero">
+            <div id="hero-title">Visit Wrocław</div>
+            <div id="hero-text">Enjoy culture and the friendly atmosphere of Wrocław.</div>
         </div>
 
-
-
-
-        <!-- ACTIVITIES SECTION -->
-        
-        <div id="activites-container" class="section">
-            <!-- title -->
-            <div class="section-content">
-                <div id="activity-title">Top three activities to do in Wroclaw</div>
-            </div>
-            <!-- images -->
-            <div class="section-content">
-                <div id="content-img">
-                    <img class="activity-img" src="images/wroclaw-glowny.jpeg" alt="Wroclaw Glowny, the railway station">
-                    <img class="activity-img" src="images/wroclaw-zoo.jpg" alt="The Africarium in Wroclaw Zoo">
-                    <img class="activity-img" src="images/wroclaw-odra.jpg" alt="Odra River">
+        <!-- MID-SECTION -->
+        <div id="mid-section">
+            <div id="mid-section-title">Top three activities to do in Wrocław</div>
+            <div id="mid-section-info">
+                <div class="mid-info" id="info-1">
+                    <img class="info-img" src="images/wroclaw-glowny.jpeg" alt="">
+                    <div class="mid-subtitle">Take a train at Wrocław Glowny</div>
+                    <div class="mid-text">You can take a train to anywhere in Poland or abroad there.</div>
                 </div>
-            </div>
-             <!-- text -->
-            <div class="section-content">
-                <!-- Wroclaw Glowny -->
-                 <div class="section-text-container">
-                    <div class="section-content-text">
-                        <div class="activity-text-title">Take a train at Wroclaw Glowny</div><br>
-                        <div class="activity-text">You can take a train to anywhere in Poland or abroad there.</div>
-                    </div>
-                    <!-- Zoo -->
-                    <div id="zoo-text" class="section-content-text">
-                        <div class="activity-text-title">See wildlife and incredible animals at the Zoo</div><br>
-                        <div class="activity-text">Wroclaw has one of the best Zoos you can ever visit, so don't miss out!</div>
-                    </div>
-                    <!-- Odra -->
-                    <div class="section-content-text">
-                        <div class="activity-text-title">Take a boat ride at Odra river</div><br>
-                        <div class="activity-text">You can take a boat ride and know a bit of Wroclaw. Fell like in Venice!</div>
-                  
-                    </div>
+
+                <div class="mid-info"  id="info-2">
+                    <img class="info-img"  src="images/wroclaw-zoo.jpg" alt="">
+                    <div class="mid-subtitle">See wildlife and incredible animals!</div>
+                    <div class="mid-text">Wrocław has one of the best Zoos you can ever visit, so don't miss out!</div>
                 </div>
-            </div>
 
-        </div>
-       
-
-
-        <!-- GUIDE -->
-
-        <div id="section-card" class="section">
-            <div id="section-info-card">
-                <img id="profile-photo" src="images/leandro-img.jpg" alt="">
-                <div id="card-text">
-                    <div id="card-info-container">
-                        <div id="card-title">Your guide</div>
-                        <div id="card-info">"I have lived in Wroclaw for over 7 years
-                        , so I can show all its best parts and hidden secrets"</div><br>
-                        <div id="card-name">Leandro dos Santos Luiz</div>
-                    </div>
+                <div class="mid-info"  id="info-3">
+                    <img class="info-img"  src="images/wroclaw-odra.jpg" alt="">
+                    <div class="mid-subtitle">Take a boat ride at Odra river</div>
+                    <div class="mid-text">You can take a boat ride and know a bit of Wrocław. Feel like in Venice!</div>
                 </div>
+
             </div>
         </div>
 
-
-    </body>
+    <!-- BOTTOM SECTION -->
+        <div id="card-section">
+            <div id="card">
+                <img id="card-img" src="images/leandro-img.jpg" alt="">
+                <div id="card-info">
+                    <div id="card-title">Your guide</div>
+                    <div id="card-text">"I have lived in Wrocław for 7 years and can show you all its
+                        best parts and hidden secrets!"
+                    </div>
+                    <div id="card-name">Leandro dos Santos Luiz</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
