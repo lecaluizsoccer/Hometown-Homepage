@@ -1,1 +1,1 @@
-This is a hometown homepage. The design breaks with some screen sizes and I will fix it when I learn more about responsive design.
+This is a hometown homepage. It shows the main tourists points of Wrocław.
