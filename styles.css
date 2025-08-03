@@ -154,7 +154,7 @@ html, body {
     gap: 10px;
     text-align: center;
     border-radius: 10px;
-   
+    border-bottom: 5px solid #1D3557;
 }
 
 #card-title {
@@ -194,7 +194,7 @@ html, body {
     }
 
     #card-text {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     #card-name {
